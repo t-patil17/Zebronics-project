@@ -1,55 +1,7 @@
 
-nav .dropdown-toggle::after {
-  
-  display: none;
- 
- }
-
- nav .nav-link-ltr:hover{
-  color:aqua;
-}
-
-nav .nav-link-ltr{
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  padding-left: 16px;
-
-}
-  
-  .nav-link:hover {
-    opacity: 1;
-   
-  }
- 
-  .nav-link::before {
-    transition: 300ms;
-    height: 3px;
-    content: "";
-    position: absolute;
-    background-color:aqua;
-  }
-  
-  .nav-link-ltr::before {
-    width: 0%;
-    bottom: 10px;
-  }
-  
-  .nav-link-ltr:hover::before {
-    width: 5%;
-  }
-  
-  // .dropdown.nav-link-ltr:hover::before {
-  //   width: 10%;
-  // }
-  // .nav-item .dropdown.nav-link::before {
-    
-  //   content: "";
-  // }
 
 
-
-  .carousel-inner img {
+.carousel-inner img {
     height: 600px;
   }
 
@@ -339,24 +291,7 @@ color: #4e86de;
   
 }
 
-.last-footer .foot-mob span {
-  margin-left: 15px;
-}
 
-
-
-.box {
-  width: 280px;
- 
-}
-.box input{
-  box-shadow: none;
- 
-}
-
-.box button:hover{
-  background-color: yellow;
-}
 
 
 
@@ -372,9 +307,7 @@ color: #4e86de;
   display: none;
  }
 
- .last-footer .show{
-  display: none;
-}
+ 
  }
 
 
@@ -412,27 +345,11 @@ color: #4e86de;
       height: 140px;
     }
 
-    .footer{
-      background: none;
-    }
-
-   .last-footer{
-    height:150px ;
-   }
-
-   .last-footer .foot-mob span {
-    display: block;
-    text-align: center;
-    margin-top: 10px;
-   }
+    
 
    
 
-   .foot-mob img {
-    margin-top: 50px;
-   margin-left: 22em;
-   
-   }
+  
 
    .headline .fluid-full{
     width: 100%;
@@ -466,37 +383,5 @@ color: #4e86de;
       width: 65px;
       height: 100px;
     }
+}
     
-    .footer{
-      background: none;
-    }
-
-    .last-footer{
-      height:140px ;
-     }
-   
-     .last-footer .foot-mob span {
-      display: block;
-      text-align: center;
-      margin-top: 10px;
-      
-     }
-
-     .foot-mob img {
-      margin-top: 50px;
-     
-     
-     }
-
-
-     .box  {
-      width: 180px;
-     }
-     .headline .effect img {
-      width: 100%;
-     }
-  
-  }
-
-
-
